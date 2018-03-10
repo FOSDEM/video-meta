@@ -4525,21 +4525,6 @@ videos:
     X11 applications in an all-snaps Ubuntu
   video: 2017/K.4.401/desktops_classic_applications_in_confined_ecosystem.vp8.webm
 - description: |
-    This talk will highlight the lessons learned from creating Zorin OS and theZorin Desktop environment, how various optimisations have made our Linuxdesktop even more approachable and how the wider community can work togetherto spread the power of Linux to new classes of users around the world.
-
-    Over the past 25 years Linux has slowly dominated nearly every class of device– from the ubiquitous smartphone to the servers that run the world. However,the desktop computer has remained the elusive form factor for Linux.
-
-    The Linux desktop has matured over the years to be more user-friendly, but ithas yet to fully cross the threshold to become a true mainstream platform. Isthis because we need to work more on the technology, or is it that we need toask ourselves different questions about the goals behind our FLOSS desktopprojects?
-  end: 2017-02-05 12:25:00+01
-  eventid: '5578'
-  room: K.4.401
-  speakers:
-  - Artyom Zorin
-  start: 2017-02-05 11:55:00+01
-  title: The Linux Desktop for the Rest of Us The Past, Present and Future of Zorin
-    OS and a Vision for the Linux Desktop
-  video: 2017/K.4.401/desktops_zorin_desktop.vp8.webm
-- description: |
     This talk gives an overview of how public administrations in the EuropeanUnion are embracing free and open source software solutions
 
     The presentation will present high-level actions that can be taken by publicadministrations and stakeholders to increase their uptake of free and opensource software.
