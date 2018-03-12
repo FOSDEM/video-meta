@@ -8505,7 +8505,7 @@ videos:
   start: 2017-02-04 17:30:00+01
   title: Valgrind BoF and Hackaton Open discussion of ideas for Valgrind - and then
     we hack!
-  video: 2017/UB2.119/valgrind_hackaton.vp8.webm
+  video: 2017/UD2.119/valgrind_hackaton.vp8.webm
 - description: |
     Valgrind and its different tools are providing a rich set of functionality totrack memory problems such as dangling pointers, memory leaks, raceconditions, etc.
 
@@ -8527,7 +8527,7 @@ videos:
   - Philippe Waroquiers
   start: 2017-02-04 12:30:00+01
   title: Valgrind, the anti-Alzheimer pill for your memory problems
-  video: 2017/UB2.119/valgrind_features.vp8.webm
+  video: 2017/UD2.119/valgrind_features.vp8.webm
 - description: |
     Memcheck is probably the most heavily used tool in the Valgrind suite,checking for invalid addresses, undefined values and memory leaks. In thistalk I'll look back at the history of the tool, then I'll look forwards atsome of the challenges it faces as the hardware and software ecosystemcontinue to evolve around it. I'll talk a bit about some of the effects ofMemcheck on the C++ ecosystem and how it fits into the big picture of makingyour big C++ app crash-free and reliable.
 
@@ -8539,7 +8539,7 @@ videos:
   - Julian Seward
   start: 2017-02-04 10:30:00+01
   title: A dozen years of Memcheck Looking backwards and looking forwards
-  video: 2017/UB2.119/valgrind_memcheck.vp8.webm
+  video: 2017/UD2.119/valgrind_memcheck.vp8.webm
 - description: |
     gcc/glibc support fortification of some functions by defining _FORTIFY_SOURCE. This inserts some compile and runtime buffer overflow checks forselected glibc functions. These checks have no or very little runtime overheadand work on the object level (the compiler provides/proofs the size of theobject buffer size). valgrind memcheck provides similar memory buffer overflowchecks. These checks don't need any compiler help (you won't have to rebuildyour code). But they have a much higher runtime overhead. They also work on adifferent level. valgrind memcheck doesn't know anything about the objects theuser is manipulation but has knowledge of all memory blocks allocated. Letsexplore how these different mechanisms work and how we can make them workbetter together.
   end: 2017-02-04 14:30:00+01
@@ -8550,7 +8550,7 @@ videos:
   start: 2017-02-04 13:30:00+01
   title: fortification vs memcheck Making gcc/glibc fortification and valgrind memcheck
     work better together
-  video: 2017/UB2.119/valgrind_fortification.vp8.webm
+  video: 2017/UD2.119/valgrind_fortification.vp8.webm
 - description: |
     SPARC is an instruction set architecture (ISA) originally developed by SunMicrosystems since 1980's. Today's largest enterprise servers run on sparc,leveraging several terabytes of memory and several hundreds of CPUs. This talkwill briefly introduce key concepts of sparcv9 ISA and the big picture wheresupport of a new architecture fits into Valgrind architecture. Someinteresting problems during the port will be discussed together with solutionsand still-to-be-solved issues. Finally a live demo will conclude the talk. Thetalk assumes basic knowledge of Valgrind, interaction among Valgrindsubsystems, basic assembly and VEX IR notation. It is targeted to allinterested in sparcv9 ISA and running Valgrind on sparc.
   end: 2017-02-04 12:30:00+01
@@ -8560,7 +8560,7 @@ videos:
   - Ivo Raisr and Tomáš Jedlička
   start: 2017-02-04 11:30:00+01
   title: sparcv9 New architecture to be supported by Valgrind
-  video: 2017/UB2.119/valgrind_sparcv9.vp8.webm
+  video: 2017/UD2.119/valgrind_sparcv9.vp8.webm
 - description: |
     Making Valgrind faster is a never ending challenge. In this talk, we willdescribe 2 optimisations in Valgrind.
 
@@ -8576,7 +8576,7 @@ videos:
   - Philippe Waroquiers
   start: 2017-02-04 14:30:00+01
   title: Successful and not (yet?) successful optimisations in Valgrind
-  video: 2017/UB2.119/valgrind_optimizations.vp8.webm
+  video: 2017/UD2.119/valgrind_optimizations.vp8.webm
 - description: |
     The angr binary analysis platform (http://angr.io) uses libVEX as the base ofits analysis engine. In this talk, we discuss the things about VEX that makeit attractive for static analysis and symbolic execution, its pitfalls, andways that it can be improved, including the changes we have made in our forkof libVEX.
 
@@ -8590,7 +8590,7 @@ videos:
   - Andrew Dutcher
   start: 2017-02-04 16:30:00+01
   title: Binary analysis with angr Using VEX for static analysis
-  video: 2017/UB2.119/valgrind_angr.vp8.webm
+  video: 2017/UD2.119/valgrind_angr.vp8.webm
 - description: |
     VEX is the JIT at the core of Valgrind. It unpicks blocks of machine code,hands them off to the tool for instrumentation, recompiles the result, andlinks the instrumented version into the running image. By using a targetindependent intermediate representation, it insulates tools from thecomplexity of the underlying instruction sets.
 
@@ -8606,7 +8606,7 @@ videos:
   - Julian Seward
   start: 2017-02-04 15:30:00+01
   title: VEX Where next for Valgrind's dynamic instrumentation infrastructure?
-  video: 2017/UB2.119/valgrind_vex_future.vp8.webm
+  video: 2017/UD2.119/valgrind_vex_future.vp8.webm
 - description: |
     In this presentation, Brian Proffitt will explain best practices for being agood community mentor, setting up scope-appropriate projects, andtroubleshooting when things start going off the plan.
 
@@ -8620,7 +8620,7 @@ videos:
   - Brian Proffitt
   start: 2017-02-05 11:20:00+01
   title: Mentoring 101 How to be a great community mentor
-  video: 2017/UB2.119/community_mentoring_101.vp8.webm
+  video: 2017/UD2.119/community_mentoring_101.vp8.webm
 - description: |
     Complex Adaptive Systems are everywhere in nature, but they can also guide usto build large contributor groups. Learn how to apply their 6 key strategiesto create a global self-sustaining community, which were successfully used inevolution of the Google Developer Groups to a global movement.
 
@@ -8632,7 +8632,7 @@ videos:
   - Dan Franc
   start: 2017-02-05 14:50:00+01
   title: 'Like the ants turn individuals into large contributing community '
-  video: 2017/UB2.119/community_like_the_ants.vp8.webm
+  video: 2017/UD2.119/community_like_the_ants.vp8.webm
 - description: |
     We are all a product of our experiences. Different communities around theworld have different core assumptions about behaviour, how decisions are made,the role of the individual in a group, and more. What makes up culture, andcan we have better community experiences by understanding it?
 
@@ -8646,7 +8646,7 @@ videos:
   - Dave Neary
   start: 2017-02-05 12:30:00+01
   title: Overcoming Culture Clash
-  video: 2017/UB2.119/community_overcoming_culture_clash.vp8.webm
+  video: 2017/UD2.119/community_overcoming_culture_clash.vp8.webm
 - description: |
     For any FOSS community, newcomer onboarding is important but retaining them iscritical. Since past one year, I have been working with the Fedora CommunityOperations team on community-oriented metrics and on improving contributorretention rates in Fedora. During this talk, I would like to share thefindings from my work.
 
@@ -8663,7 +8663,7 @@ videos:
   start: 2017-02-05 13:05:00+01
   title: I contributed ! But what now ? This talk will be about methods to improve
     contributor retention rates in your FOSS community.
-  video: 2017/UB2.119/community_contributed_now_what.vp8.webm
+  video: 2017/UD2.119/community_contributed_now_what.vp8.webm
 - description: |
     What happens when you stop looking at diversity and instead put accessibilityinto the core of an event? This talk will be about the experience of doingexactly that. We will be looking into some of the solutions WordCamp Londoncame up with and the cost of building accessibility into a project.
 
@@ -8679,7 +8679,7 @@ videos:
   - Jenny Wong
   start: 2017-02-05 14:15:00+01
   title: Building an Accessible Community
-  video: 2017/UB2.119/community_building_an_accessible_community.vp8.webm
+  video: 2017/UD2.119/community_building_an_accessible_community.vp8.webm
 - description: |
     How do we decide when a discussion is complete? How do we know we've heardfrom enough people, or that the topic isn't dead yet? Deciding how to takedecisions in a community is hard - in this talk, I'd like to ways to handleit.
 
@@ -8691,7 +8691,7 @@ videos:
   - Greg Sutcliffe
   start: 2017-02-05 09:00:00+01
   title: Closing loops Concluding discussions in non-face-to-face communities
-  video: 2017/UB2.119/community_closing_loops.vp8.webm
+  video: 2017/UD2.119/community_closing_loops.vp8.webm
 - description: |
     Your project's code base is rock solid, you are rolling releases early andoften, your test suite is comprehensive and running regularly, your code iswell performing without any glitches. Everything is in place that defines asuccessful open source project - or isn't it?
 
@@ -8717,7 +8717,7 @@ videos:
   - Isabel Drost-Fromm
   start: 2017-02-05 13:40:00+01
   title: Open source is just about the source, isn't it?
-  video: 2017/UB2.119/community_open_source_is_just_about_the_source_isnt_it.vp8.webm
+  video: 2017/UD2.119/community_open_source_is_just_about_the_source_isnt_it.vp8.webm
 - description: |
     Why settle for boring numbers and static graphs to describe your project whenyou can dynamically display the movements and activity within your project?Gource is a flexible open source tool that can be used to display activityfrom your repositories using a video visualization that people love!
 
@@ -8733,7 +8733,7 @@ videos:
   - Dawn Foster
   start: 2017-02-05 15:25:00+01
   title: Visualize Your Code Repos and More with Gource
-  video: 2017/UB2.119/community_visualize_your_code_repos_and_more_with_gource.vp8.webm
+  video: 2017/UD2.119/community_visualize_your_code_repos_and_more_with_gource.vp8.webm
 - description: |
     We will present some typical community management worries about communityhealth, productivity and visibility and how some open source tools could beused to face them. Open source development transparency allows community tobehave as data scientists and extract valuable information.
 
@@ -8755,7 +8755,7 @@ videos:
   - Manrique Lopez
   start: 2017-02-05 09:35:00+01
   title: Data Science for Community management
-  video: 2017/UB2.119/community_datascience_for_communitymanagement.vp8.webm
+  video: 2017/UD2.119/community_datascience_for_communitymanagement.vp8.webm
 - description: |
     Building safer spaces for everyone can be hard if the wrong questions areanswered. I will show how, by working on the root causes of the issues weface, we can be successful in creating better spaces for everyone toparticipate.
 
@@ -8772,7 +8772,7 @@ videos:
   start: 2017-02-05 16:30:00+01
   title: Sharing power in our communities Designing and implementing better spaces
     for everyone
-  video: 2017/UB2.119/community_sharing_power_in_our_communities.vp8.webm
+  video: 2017/UD2.119/community_sharing_power_in_our_communities.vp8.webm
 - description: |
     The talk will explain how to analyze software development repositories ofcommon use in the free software community with [GrimoireLabtools][http://grimoirelab.github.io], a toolset for software developmentanalytics writting in Python. It will start by explaining how to retrieve datafrom git, Bugzilla, GitHub, mailing lists, StackOverflow, Gerrit, and manyother repositories by, and organizing it in a database. The talk will laterexplain how this database can be exploited with several components of thetoolset, for different purposes. In this context, special attention will begiven to how to extract useful information from it using Python/Pandas andiPython/Jupyter Notebooks; and how to use ElasticSearch/Kibana to deployactionable dashboards that show data in all its glory.
 
