@@ -8792,7 +8792,7 @@ videos:
   - Jesus M. Gonzalez-Barahona
   start: 2017-02-05 11:30:00+01
   title: GrimoireLab a Python toolset for software development analytics
-  video: 2017/UB2.120/python_grimoirlab.vp8.webm
+  video: 2017/UD2.120/python_grimoirlab.vp8.webm
 - description: |
     Video playback for embedded devices such as infotainment systems and mediacenters demands hardware accelerators to achieve reasonable performance.Unfortunately, vendors provide the drivers for the accelerators only as binaryblobs. We demonstrate how we built a video playback system that uses hardwareacceleration on i.MX6 by using solely open source software includingGstreamer, Qt QML, the etnaviv GPU driver, and the coda video decoder driver.
 
@@ -8814,7 +8814,7 @@ videos:
   - Michael Tretter
   start: 2017-02-04 15:30:00+01
   title: How to Build an Open Source Embedded Video Player
-  video: 2017/UB2.120/open_embedded_video_player.vp8.webm
+  video: 2017/UD2.120/open_embedded_video_player.vp8.webm
 - description: |
     A number of new components have matured in GENIVI to provide a true connectedcar experience. A couple of them are key connectivity components; namely SOTA(Software Over the Air) and RVI (Remote Vehicle Interface). This talk willdiscuss both these components, how they work together, the security work doneon them and their integration into the GENIVI Development Platform.
 
@@ -8826,7 +8826,7 @@ videos:
   - Zeeshan Ali
   start: 2017-02-04 12:00:00+01
   title: Creating the open connected car with GENIVI
-  video: 2017/UB2.120/openconnectedcar.vp8.webm
+  video: 2017/UD2.120/openconnectedcar.vp8.webm
 - description: |
     The Serial Peripheral Interconnect (SPI) bus is a ubiquitous de facto standardfound in many embedded systems produced today. The Linux kernel has longsupported this bus via a comprehensive framework which supports both SPImaster and slave devices. The session will explore the abstractions that theframework provides to expose this hardware to both kernel and userspaceclients. The talk will cover which classes of hardware supported and use casesoutside the scope of the subsystem today. In addition, we will discuss subtlefeatures of the SPI subsystem that may be used to satisfy hardware andperformance requirements in an embedded Linux system.
   end: 2017-02-04 15:00:00+01
@@ -8836,7 +8836,7 @@ videos:
   - Matt Porter
   start: 2017-02-04 14:00:00+01
   title: Groking the Linux SPI Subsystem
-  video: 2017/UB2.120/kernel_spi_subsystem.vp8.webm
+  video: 2017/UD2.120/kernel_spi_subsystem.vp8.webm
 - description: |
     Driver not found, incorrect driver bound, kernel oops. If you've everexperienced any of those problems while using USB then this talk is exactlyfor you!
 
@@ -8849,7 +8849,7 @@ videos:
   start: 2017-02-04 16:00:00+01
   title: How to fix Usually Slightly Broken (USB) devices and drivers? Sniffing traffic
     on your USB bus
-  video: 2017/UB2.120/sniffing_usb.vp8.webm
+  video: 2017/UD2.120/sniffing_usb.vp8.webm
 - description: |
     Building products requires putting together many components. There are source-based distributions supporting that process. Using a pre-built, pre-testedbinary distribution like Debian has its advantages.
 
@@ -8863,7 +8863,7 @@ videos:
   - Baurzhan Ismagulov
   start: 2017-02-04 15:00:00+01
   title: Isar Build Debian-Based Products with BitBake
-  video: 2017/UB2.120/debian_based_with_bitbake.vp8.webm
+  video: 2017/UD2.120/debian_based_with_bitbake.vp8.webm
 - description: |
     Recent DDoS attacks powered by embedded devices have finally discredited theold excuse that security is not important: security support (and thus softwareupdates) is suddenly a required feature.
 
@@ -8881,7 +8881,7 @@ videos:
   - Enrico Jörns
   start: 2017-02-04 17:00:00+01
   title: Secure and Safe Updates for Your Embedded Device
-  video: 2017/UB2.120/secure_safe_embedded_updates.vp8.webm
+  video: 2017/UD2.120/secure_safe_embedded_updates.vp8.webm
 - description: |
     This presentation will provide guidelines how to create an open sourcehardware add-on board for the most popular single board computer Raspberry Piusing free and open source tools from scratch. Specifications of Raspberry PiFoundation for HAT (Hardware Attached on Top) will be revealed in details.Leon Anavi has been developing an open source Raspberry Pi HAT for IoT formore than a year and now he will share his experience, including the commonmistakes for a software engineer getting involved in hardware design andmanufacturing. The presentation is appropriate for anyone interested inbuilding entirely open source products that feature open source hardware andopen source software. No previous experience or hardware knowledge isrequired. The main audience are developers, hobbyists, makers, and students.Hopefully the presentation will encourage them to grab a soldering iron andstart prototyping their DIY open source device.
 
@@ -8894,7 +8894,7 @@ videos:
   start: 2017-02-04 12:30:00+01
   title: Making Your Own Open Source Raspberry Pi HAT A Story About Open Source Harware  and
     Open Source Software
-  video: 2017/UB2.120/diy_pi_hat.vp8.webm
+  video: 2017/UD2.120/diy_pi_hat.vp8.webm
 - description: |
     Google’s chromebooks and routers use off the shelf Microcontrollers (MCU) todo power sequencing, fan control, PWM and other hardware control tasks onetypically encounters in embedded systems. Interestingly enough the firmware isavailable under (3 clause) BSD license and thus open for hacking, abusing andmodifying to your needs.
 
@@ -8912,7 +8912,7 @@ videos:
   - Moritz Fischer
   start: 2017-02-04 11:00:00+01
   title: (Ab)using Google's Chromium-EC firmware for your own designs Building Franken-Chromebook-devices
-  video: 2017/UB2.120/abusing_chromium_ec.vp8.webm
+  video: 2017/UD2.120/abusing_chromium_ec.vp8.webm
 - description: |
     Security reasons and market demands dictate that software in a connectedembedded Linux device should be updated regularly. Update on a package basisthat is used by PC Linux distributions can be a security threat by itself onembedded devices. On the other hand, full fylesystem upgrade that is common inembedded field can be too wasteful for systems constrained in network bandwithand disk space. OSTree is a tool that allows for upgrades that are bothincremental and atomic and as such perfectly fits the needs of embedded world.
 
@@ -8928,7 +8928,7 @@ videos:
   - Anton Gerasimov
   start: 2017-02-04 17:30:00+01
   title: Software updates with OSTree Why and how
-  video: 2017/UB2.120/updates_with_ostree.vp8.webm
+  video: 2017/UD2.120/updates_with_ostree.vp8.webm
 - description: |
     There is no de facto secured embedded Linux distro while the requirement isbecoming more and more critical with raise of IoT in Industrial domains. Whenlooking under the hood of the Yocto built AGL project, it is obvious that itcan fit 95% of the most common requirements as a Secured Embedded Linux. Wewill look how non Automotive industries can easily reuse the AGL code andtools to build their own industrial product and why it's a safer bet than tobuild it internally.
 
@@ -8941,7 +8941,7 @@ videos:
   start: 2017-02-04 18:00:00+01
   title: AGL as a generic secured industrial embedded Linux Factory production line
     controllers  requirements are not that special
-  video: 2017/UB2.120/agl_secure_industrial.vp8.webm
+  video: 2017/UD2.120/agl_secure_industrial.vp8.webm
 - description: "One of the major challenges for certification in the SIL2LinuxMP project,
     isto show that Linux does not only define a development process, but alsofollows
     it. To this end (and far beyond!) the meta-data of commits to theLinux kernel
@@ -8972,7 +8972,7 @@ videos:
   - Andreas Platschek
   start: 2017-02-04 13:00:00+01
   title: Analyzing the Software Development Life-Cycle using Data-Mining Techniques
-  video: 2017/UB2.120/software_life_cycle_data_mining.vp8.webm
+  video: 2017/UD2.120/software_life_cycle_data_mining.vp8.webm
 - description: |
     Weboob is a python framework for web scraping, providing command-line toolsand GUI applications. It supports several types of websites, from videocollections to bug trackers, online banking or parcel tracking.
 
@@ -8986,7 +8986,7 @@ videos:
   - François Revol
   start: 2017-02-05 12:00:00+01
   title: Script the Web with Weboob Yes we can use the Web outside of Browsers
-  video: 2017/UB2.120/python_weboob.vp8.webm
+  video: 2017/UD2.120/python_weboob.vp8.webm
 - description: |
     asynctest enhances the standard python package unittest with features forasyncio. This talk aims at presenting asynctest and discuss various practicesaround unit testing of code using asyncio.
 
@@ -9004,7 +9004,7 @@ videos:
   - Martin Richard
   start: 2017-02-05 16:00:00+01
   title: asynctest easier testing of asyncio code
-  video: 2017/UB2.120/python_asynctest.vp8.webm
+  video: 2017/UD2.120/python_asynctest.vp8.webm
 - description: |
     Two years ago at Fosdem 2015, I presented prompt_toolkit, a library forbuilding command line applications. A lot of progress was made, and it becamethe foundation for the UI in many tools, including IPython, http-prompt, xonshand others.
 
@@ -9020,7 +9020,7 @@ videos:
   - Jonathan Slenders
   start: 2017-02-05 15:30:00+01
   title: prompt_toolkit two years later
-  video: 2017/UB2.120/python_prompt_toolkit.vp8.webm
+  video: 2017/UD2.120/python_prompt_toolkit.vp8.webm
 - description: |
     If you're making electronic music in 2017, you're likely to have seen or usedone of Native Instrument's "Maschine", "Maschine Jam", Novation's "Circuit",or Ableton's "Push"... These pad-based devices allow musicians to triggersamples, and create rhythms intuitively by the means of a "step sequencer".The said step sequencer is implemented in the box and stays in it...
 
@@ -9034,7 +9034,7 @@ videos:
   - Yann Gravrand
   start: 2017-02-05 11:00:00+01
   title: Hacking midi devices with StepPy a step sequencer in Python
-  video: 2017/UB2.120/python_steppy.vp8.webm
+  video: 2017/UD2.120/python_steppy.vp8.webm
 - description: |
     Selinon is a project that is based on popular Python project Celery. Celery isa distributed task queue that offers one to run tasks. Selinon gives one apower to define flows and dependencies in flows, schedule tasks based onresults of workers, success or any external events, handle errors, trace flowstate and actions in a distributed environment. Its main goal is to split tasklogic (code) and persistence logic from data and time dependencies betweentasks in flows that are stated in simple YAML configuration files.
 
@@ -9046,7 +9046,7 @@ videos:
   - Fridolín Pokorný
   start: 2017-02-05 10:30:00+01
   title: Selinon Distributed dynamic task flow management with Python
-  video: 2017/UB2.120/python_selinon.vp8.webm
+  video: 2017/UD2.120/python_selinon.vp8.webm
 - description: |
     A talk about async programming, touching briefly on the history & Python3.4before moving on to introducing async/await in Python3.5 (and how to test)Briefly mentions curio by DaBeaz.
   end: 2017-02-05 14:30:00+01
@@ -9056,7 +9056,7 @@ videos:
   - Ewoud Van Craeynest
   start: 2017-02-05 14:00:00+01
   title: Asynchronous programming with Coroutines in Python A gentle introduction
-  video: 2017/UB2.120/python_coroutines.vp8.webm
+  video: 2017/UD2.120/python_coroutines.vp8.webm
 - description: |
     This talk will be based on open source data manipulation and analysis pythonlibrary – Pandas. It will mainly focus on exploring the most commonly usedfeatures of the library like – integrated indexing using DataFrame objects,slicing and subsetting of large data sets, merging, joining and sizemutability of data structures, hierarchical axis indexing to work with high-dimensional data in a lower-dimensional data, flexible reshaping and pivotingof data sets etc.
 
@@ -9069,7 +9069,7 @@ videos:
   start: 2017-02-05 09:00:00+01
   title: Introduction to Pandas Introduction to the open source data analysis and
     manipulation library
-  video: 2017/UB2.120/python_pandas.vp8.webm
+  video: 2017/UD2.120/python_pandas.vp8.webm
 - description: |
     When things go wrong in production, it can be necessary to troubleshootproblems where they occur, instead of in a development environment. In thosesituations having a working knowledge of GDB, GDB Python Extensions, andstrace is very helpful. You will see some simple techniques to get insightinto those situations. This talk outlines several techniques for connecting toan already running, "stuck", or deadlocked Python process using GDB fordebugging.
 
@@ -9087,7 +9087,7 @@ videos:
   - Brian Bouterse
   start: 2017-02-05 13:30:00+01
   title: Debugging Hung Python Processes with GDB
-  video: 2017/UB2.120/python_gdb.vp8.webm
+  video: 2017/UD2.120/python_gdb.vp8.webm
 - description: |
     Python and "the SOLID principles". This is an introduction to the first fiveprinciples named by Robert C. Martin (uncle Bob). These principles are thefoundation of a good software architecture. We will have a look at how thisapplies to Python code. We will have a look at abstract base classes,dependency inversion and so on.
 
@@ -9099,7 +9099,7 @@ videos:
   - Jonathan Slenders
   start: 2017-02-05 09:30:00+01
   title: Python and "the SOLID principles"
-  video: 2017/UB2.120/python_solid.vp8.webm
+  video: 2017/UD2.120/python_solid.vp8.webm
 - description: |
     Serverside applications are more and more likely to need to run in dynamiccloud environments where they can automatically scale as required. Onerightfully popular approach is to run the application as a Docker containerinside a Kubernetes cluster, giving you a lot of operational benefits thanksto the Kubernetes folks.
 
@@ -9113,7 +9113,7 @@ videos:
   - Floris Bruynooghe
   start: 2017-02-05 13:00:00+01
   title: Cloud Native Python The road to being a first-class Kubernetes application
-  video: 2017/UB2.120/cloud_native_python.vp8.webm
+  video: 2017/UD2.120/cloud_native_python.vp8.webm
 - description: |
     Computer Aided Scheduling using Linear Programming with PuLP
   end: 2017-02-05 17:00:00+01
@@ -9123,7 +9123,7 @@ videos:
   - Marc-André Lemburg
   start: 2017-02-05 16:30:00+01
   title: Optimization with PuLP
-  video: 2017/UB2.120/optimization_with_pulp.vp8.webm
+  video: 2017/UD2.120/optimization_with_pulp.vp8.webm
 - description: |
     Gnocchi is a time series database written in Python, that has been created inthe context of the OpenStack cloud computing project. It offers highly-scalable data storage for measurements and provides access to its data via aREST API. In this lecture, we'll discuss the features the project is offeringto its users, and how they can easily be leveraged in any application. In asecond part, we'll see how the project has been built to scale, how Python wasleveraged and made scalable.
   end: 2017-02-05 10:30:00+01
@@ -9133,7 +9133,7 @@ videos:
   - Julien Danjou
   start: 2017-02-05 10:00:00+01
   title: Storing metrics at scale with Gnocchi The Python based time series database
-  video: 2017/UB2.120/storing_metrics_gnocchi.vp8.webm
+  video: 2017/UD2.120/storing_metrics_gnocchi.vp8.webm
 - description: |
     Working on optimizations is a task more complex than expected on the firstlook. Any optimization must be measured to make sure that, in practice, itspeeds up the application task. Problem: it is very hard to obtain stablebenchmark results.
 
@@ -9149,7 +9149,7 @@ videos:
   - Victor Stinner
   start: 2017-02-05 15:00:00+01
   title: How to run a stable benchmark
-  video: 2017/UB2.120/python_stable_benchmark.vp8.webm
+  video: 2017/UD2.120/python_stable_benchmark.vp8.webm
 - description: |
     Introducing Python developers to the world of physical computing and IoT usingPython on the Raspberry Pi.
 
@@ -9171,7 +9171,7 @@ videos:
   - Ben Nuttall
   start: 2017-02-05 14:30:00+01
   title: Python and Raspberry Pi Physical computing, GPIO, HATs and IoT with Python
-  video: 2017/UB2.120/python_raspberry_pi.vp8.webm
+  video: 2017/UD2.120/python_raspberry_pi.vp8.webm
 - description: |
     When writing Python code, you might find yourself using lists and dictionariespretty often. But do you really know how they work? Fortunately, theirimplementation as well as their history are (really) well documented. In thispresentation, we will dive into CPython 3.6 internals, explain how these datastructures have been designed, how they behave (and why).
   end: 2017-02-05 13:00:00+01
@@ -9182,4 +9182,4 @@ videos:
   start: 2017-02-05 12:30:00+01
   title: 'Python Data Structures implementation list, dict: how does CPython actually
     implement them?'
-  video: 2017/UB2.120/python_data_structures.vp8.webm
+  video: 2017/UD2.120/python_data_structures.vp8.webm
